@@ -1,0 +1,33 @@
+.root {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.header {
+    text-align: left;
+    position: sticky;
+    top: 6rem;
+    z-index: 10;
+    background-color: var(--white);
+}
+
+.header:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--lightGrey);
+    bottom: -2px;
+}
+
+.row {
+    border: 1px solid var(--lightGrey);
+}
+
+.cell {
+    padding: 1rem 2rem;
+}
+
+thead th{
+
+}

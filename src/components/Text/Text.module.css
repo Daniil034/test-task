@@ -1,0 +1,23 @@
+.black {
+    color: var(--black);
+}
+
+.grey {
+    color: var(--darkGrey);
+}
+
+.light {
+    font-weight: var(--light-font);
+}
+
+.regular {
+    font-weight: var(--regular-font);
+}
+
+.h1 {
+    font-size: 24px;
+}
+
+.span {
+    font-size: 15px;
+}
